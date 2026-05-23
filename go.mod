@@ -3,7 +3,6 @@ module github.com/projectdiscovery/nuclei/v3
 go 1.25.7
 
 require (
-	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible
 	github.com/andygrunwald/go-jira v1.16.1
 	github.com/antchfx/htmlquery v1.3.5
 	github.com/bluele/gcache v0.0.2
@@ -15,17 +14,17 @@ require (
 	github.com/itchyny/gojq v0.12.17
 	github.com/json-iterator/go v1.1.12
 	github.com/julienschmidt/httprouter v1.3.0
-	github.com/logrusorgru/aurora v2.0.3+incompatible
+	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
 	github.com/miekg/dns v1.1.68
 	github.com/olekukonko/tablewriter v1.0.8
 	github.com/pkg/errors v0.9.1
-	github.com/projectdiscovery/clistats v0.1.2
-	github.com/projectdiscovery/fastdialer v0.5.6
+	github.com/projectdiscovery/clistats v0.1.3
+	github.com/projectdiscovery/fastdialer v0.5.7
 	github.com/projectdiscovery/hmap v0.0.100
 	github.com/projectdiscovery/interactsh v1.3.1
 	github.com/projectdiscovery/rawhttp v0.1.90
 	github.com/projectdiscovery/retryabledns v1.0.114
-	github.com/projectdiscovery/retryablehttp-go v1.3.10
+	github.com/projectdiscovery/retryablehttp-go v1.3.11
 	github.com/projectdiscovery/yamldoc-go v1.0.6
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/rs/xid v1.6.0
@@ -49,12 +48,14 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.1.0
 	github.com/Azure/go-ntlmssp v0.1.1
 	github.com/DataDog/gostackparse v0.7.0
+	github.com/FalconOpsLLC/goexec v0.3.0
 	github.com/Masterminds/semver/v3 v3.4.0
 	github.com/Mzack9999/gcache v0.0.0-20230410081825-519e28eab057
 	github.com/Mzack9999/go-rsync v0.0.0-20250821180103-81ffa574ef4d
 	github.com/Mzack9999/goimpacket v0.0.0-20260422121140-7085336a0415
 	github.com/Mzack9999/goja v0.0.0-20250507184235-e46100e9c697
 	github.com/Mzack9999/goja_nodejs v0.0.0-20250507184139-66bcbf65c883
+	github.com/RedTeamPentesting/adauth v0.5.4-0.20260511073005-3d18e8a5a687
 	github.com/alexsnet/go-vnc v0.1.0
 	github.com/alitto/pond v1.9.2
 	github.com/antchfx/xmlquery v1.4.4
@@ -73,7 +74,7 @@ require (
 	github.com/docker/go-units v0.5.0
 	github.com/fatih/structs v1.1.0
 	github.com/getkin/kin-openapi v0.132.0
-	github.com/go-git/go-git/v5 v5.19.0
+	github.com/go-git/go-git/v5 v5.19.1
 	github.com/go-ldap/ldap/v3 v3.4.12
 	github.com/go-pdf/fpdf v0.9.0
 	github.com/go-pg/pg/v10 v10.15.0
@@ -88,6 +89,7 @@ require (
 	github.com/labstack/echo/v4 v4.13.4
 	github.com/leslie-qiwa/flat v0.0.0-20230424180412-f9d1cf014baa
 	github.com/lib/pq v1.11.2
+	github.com/logrusorgru/aurora/v4 v4.0.0
 	github.com/mattn/go-sqlite3 v1.14.28
 	github.com/maypok86/otter/v2 v2.2.1
 	github.com/mholt/archives v0.1.5
@@ -95,27 +97,29 @@ require (
 	github.com/oiweiwei/go-msrpc v1.2.12
 	github.com/ory/dockertest/v3 v3.12.0
 	github.com/praetorian-inc/fingerprintx v1.1.15
-	github.com/projectdiscovery/dsl v0.8.17
+	github.com/projectdiscovery/dsl v0.8.18
 	github.com/projectdiscovery/fasttemplate v0.0.2
 	github.com/projectdiscovery/gcache v0.0.0-20241015120333-12546c6e3f4c
 	github.com/projectdiscovery/go-smb2 v0.0.0-20240129202741-052cc450c6cb
 	github.com/projectdiscovery/goflags v0.1.74
 	github.com/projectdiscovery/gologger v1.1.68
 	github.com/projectdiscovery/gostruct v0.0.2
+	github.com/projectdiscovery/govaluate v0.0.0-20260504230327-80320480bb6e
 	github.com/projectdiscovery/gozero v0.1.1-0.20251027191944-a4ea43320b81
 	github.com/projectdiscovery/httpx v1.9.0
 	github.com/projectdiscovery/mapcidr v1.1.97
 	github.com/projectdiscovery/n3iwf v0.0.0-20230523120440-b8cd232ff1f5
-	github.com/projectdiscovery/networkpolicy v0.1.37
-	github.com/projectdiscovery/ratelimit v0.0.86
+	github.com/projectdiscovery/networkpolicy v0.1.38
+	github.com/projectdiscovery/ratelimit v0.0.87
 	github.com/projectdiscovery/rdap v0.9.0
-	github.com/projectdiscovery/sarif v0.0.1
+	github.com/projectdiscovery/sarif v0.1.0
 	github.com/projectdiscovery/tlsx v1.2.2
 	github.com/projectdiscovery/uncover v1.2.0
 	github.com/projectdiscovery/useragent v0.0.107
-	github.com/projectdiscovery/utils v0.10.1
-	github.com/projectdiscovery/wappalyzergo v0.2.79
+	github.com/projectdiscovery/utils v0.11.0
+	github.com/projectdiscovery/wappalyzergo v0.2.81
 	github.com/redis/go-redis/v9 v9.11.0
+	github.com/rs/zerolog v1.34.0
 	github.com/shurcooL/graphql v0.0.0-20230722043721-ed46e5a46466
 	github.com/sijms/go-ora/v2 v2.9.0
 	github.com/stretchr/testify v1.11.1
@@ -225,7 +229,7 @@ require (
 	github.com/free5gc/util v1.0.5-0.20230511064842-2e120956883b // indirect
 	github.com/gabriel-vasile/mimetype v1.4.8 // indirect
 	github.com/gaissmai/bart v0.26.1 // indirect
-	github.com/geoffgarside/ber v1.1.0 // indirect
+	github.com/geoffgarside/ber v1.2.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.9.1 // indirect
 	github.com/go-asn1-ber/asn1-ber v1.5.8-0.20250403174932-29230038a667 // indirect
@@ -284,7 +288,6 @@ require (
 	github.com/labstack/gommon v0.4.2 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/libdns/libdns v1.1.1 // indirect
-	github.com/logrusorgru/aurora/v4 v4.0.0 // indirect
 	github.com/lor00x/goldap v0.0.0-20240304151906-8d785c64d1c8 // indirect
 	github.com/lucasb-eyer/go-colorful v1.3.0 // indirect
 	github.com/lufia/plan9stats v0.0.0-20250827001030-24949be3fa54 // indirect
@@ -336,12 +339,11 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/cdncheck v1.2.34 // indirect
+	github.com/projectdiscovery/cdncheck v1.2.36 // indirect
 	github.com/projectdiscovery/freeport v0.0.7 // indirect
 	github.com/projectdiscovery/ldapserver v1.0.2-0.20240219154113-dcc758ebc0cb // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20250715113114-c77eb3567582 // indirect
 	github.com/refraction-networking/utls v1.8.2 // indirect
-	github.com/rs/zerolog v1.32.0 // indirect
 	github.com/sashabaranov/go-openai v1.37.0 // indirect
 	github.com/sergi/go-diff v1.3.2-0.20230802210424-5b0b94c5c0d3 // indirect
 	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
@@ -350,6 +352,7 @@ require (
 	github.com/skeema/knownhosts v1.3.1 // indirect
 	github.com/sorairolake/lzip-go v0.3.8 // indirect
 	github.com/spf13/afero v1.15.0 // indirect
+	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/tidwall/btree v1.8.1 // indirect
 	github.com/tidwall/buntdb v1.3.2 // indirect
 	github.com/tidwall/gjson v1.18.0 // indirect
@@ -398,6 +401,7 @@ require (
 	golang.org/x/arch v0.3.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
 	mellium.im/sasl v0.3.2 // indirect
+	software.sslmate.com/src/go-pkcs12 v0.7.0 // indirect
 )
 
 require (
